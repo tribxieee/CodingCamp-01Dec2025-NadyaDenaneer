@@ -86,11 +86,10 @@
 }
 .navbar .nav-link.active,
 .navbar .nav-link[aria-current="page"] {
-    color: #FFC857 !important;
-    font-weight: bold;
-    border-bottom: 2px solid #FFC857;
+  color: #FFC857 !important;
+  font-weight: bold;
+  border-bottom: 2px solid #FFC857;
 }
-
 
 /* home */
 .home {
@@ -503,4 +502,5 @@ p {
     text-align: center;
 
 }
+
 
