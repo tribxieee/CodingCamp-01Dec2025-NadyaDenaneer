@@ -84,6 +84,12 @@
         transform: rotate(-45deg) translate(5px, -5px);
     }
 }
+.nav-link.active,
+.nav-link[aria-current="page"] {
+    color: #FFC857;
+    font-weight: bold;
+    border-bottom: 2px solid #FFC857;
+}
 
 
 /* home */
@@ -495,4 +501,5 @@ p {
     padding: 20px;
     font-size: 14px;
     text-align: center;
+
 }
