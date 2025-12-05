@@ -84,9 +84,9 @@
         transform: rotate(-45deg) translate(5px, -5px);
     }
 }
-.nav-link.active,
-.nav-link[aria-current="page"] {
-    color: #FFC857;
+.navbar .nav-link.active,
+.navbar .nav-link[aria-current="page"] {
+    color: #FFC857 !important;
     font-weight: bold;
     border-bottom: 2px solid #FFC857;
 }
@@ -503,3 +503,4 @@ p {
     text-align: center;
 
 }
+
